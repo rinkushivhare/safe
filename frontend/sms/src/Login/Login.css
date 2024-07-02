@@ -1,0 +1,74 @@
+/* Login.css */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right,rgb(210, 163, 246), rgba(170, 114, 244, 0), rgb(25,118,210));
+}
+
+.formmain {
+  width: 350px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-image: linear-gradient(to right,rgb(210, 163, 246), rgba(170, 114, 244, 0), rgb(25,118,210));
+  background-color: #d5e9ff;
+  background: transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.formmain h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+}
+
+.input-container input {
+  width: 91%;
+  padding: 10px 35px 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.input-container .icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+  color: #0b0c0c;
+}
+
+.register-link {
+  text-align: center;
+}
+
+.register-link a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.submit-btn{
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+

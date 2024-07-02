@@ -1,0 +1,133 @@
+.table-container {
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto;
+  width: 610px;
+  margin-left: 20px;
+}
+
+.receipt-details {
+  display: flex;
+}
+
+.fee-details {
+  display: flex;
+}
+
+.fee-entry-header {
+  margin-top: -2% !important;
+  margin-left: 20px;
+}
+.fee-entry-container {
+  display: flex;
+}
+
+.left-box,
+.right-box {
+  width: 50%;
+  padding: 20px;
+}
+
+.left-box {
+  border-right: 1px solid #ccc;
+}
+
+.detail {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.detail:nth-child(3) {
+  display: inline-block;
+}
+
+.student-details {
+  display: inline-block;
+}
+
+/* View.css */
+.view {
+  padding: 20px;
+}
+
+
+.filter-row {
+  display: flex;
+}
+
+.filter-row label {
+  margin-right: 10px;
+}
+
+.filter-row input,
+.filter-row select {
+  margin-right: 10px;
+}
+
+.button-row button {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Highlight rows on hover */
+table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Highlight columns on hover */
+table tbody tr:hover td {
+  background-color: #fff;
+}
+
+.receipt-details {
+  display: inline;
+  flex-direction: column;
+}
+
+.detail {
+  margin-bottom: 10px;
+}
+
+.detail label {
+  font-weight: bold;
+}
+
+.detail input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Optional: Change border color on focus */
+.detail input[type="text"]:focus {
+  border-color: #0e0e0e;
+}
+
+.pickbutton {
+  background-color: #b0ceee;
+  width: 140px;
+  padding: 2px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: auto;
+  font-display:  block;
+}

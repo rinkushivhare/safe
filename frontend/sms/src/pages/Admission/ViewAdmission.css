@@ -1,0 +1,146 @@
+.view-container {
+    justify-content: center;
+    height: 91vh;
+    overflow: hidden;
+  }
+  
+  .white-box {
+    background-color: white;
+    padding: 0px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    height: 100vh;
+    width: 167vh;
+    overflow: hidden;
+  }
+
+  /* View.css */
+  .view {
+    padding: 20px;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filter-row {
+    display: flex;
+    font-weight: bold;
+  }
+  
+  .filter-row label {
+    margin-right: 10px;
+  }
+  
+  .filter-row input,
+  .filter-row select {
+    margin-right: 10px;
+  }
+
+
+  .button {
+    height: 45px;
+    background: #91c5f8;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    margin-right: 108px;
+    padding: 12px;
+  }
+  
+
+  .filter-row input[type="number"] {
+  width: 100px; /* Adjust width as needed */
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 7px; /* Add border radius */
+  outline: none; /* Remove default input outline */
+}
+
+.filter-row input[type="number"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+
+.filter-row {
+  display: flex; /* Display children in a row */
+  align-items: center; /* Align items vertically centered */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+
+.filter-row select,
+.filter-row input[type="text"] {
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  outline: none; /* Remove default input outline */
+}
+
+.filter-row select {
+  /* Adjust width of select element as needed */
+  width: 150px;
+}
+
+.filter-row input[type="text"] {
+  /* Adjust width of input element as needed */
+  width: 200px;
+}
+
+.filter-row select:focus,
+.filter-row input[type="text"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Highlight rows on hover */
+  table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Highlight columns on hover */
+  table tbody tr:hover td {
+    background-color: #fff;
+  }
+
+
+  .fee-entry-container {
+    display: flex;
+  }
+  
+  .left-box,
+  .right-box {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .detail {
+    margin-bottom: 10px;
+  }
+
+  .course-listing {
+    overflow: scroll;
+  }
